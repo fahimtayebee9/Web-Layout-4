@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'proxima-nova', sans-serif;
+}
+
+body {
+    background-color: #F7F7F7;
+}
+
+.top_header {
+    height: 78px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.main_container {
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.logo_container {
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+
+.logo_container img {
+    width: 80%;
+    height: 50px;
+    margin-left: 7px;
+    margin-top: 7px;
+}
+
+.menu_container {
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+
+div nav {
+    height: 100%;
+    width: 80%;
+    float: left;
+}
+
+div nav ul {
+    float: left;
+}
+
+div nav ul li {
+    display: inline-block;
+    padding: 30px 10px;
+}
+
+div nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #424242;
+    font-weight: bold;
+    height: 100%;
+}
+
+div nav ul li:hover a {
+    color: rgb(29, 191, 115);
+}
+
+.top_profile_info_container {
+    width: 20%;
+    height: 100%;
+    float: right;
+}
+
+.text_button {
+    width: 55%;
+    margin-left: 5px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    color: rgb(29, 191, 115);
+    float: left;
+}
+
+.top_profile_info_container img {
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-top: 15px;
+    float: right;
+}
+
+.content_container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 38px;
+    display: flex;
+    overflow: hidden;
+}
+
+.left_content_container {
+    width: 28%;
+    height: 408px;
+    background-color: aquamarine;
+}
+
+.center_content_container {
+    width: 74%;
+    height: 294px;
+    background-color: aquamarine;
+    margin-left: 88px;
+    clear: both;
+}
+
+.right_top_content {
+    width: 100%;
+    height: 78px;
+    background-color: chartreuse;
+}
+
+.heading_text {
+    width: 30%;
+    height: 78px;
+    background-color: blanchedalmond;
+    float: left;
+}
+
+.bottom_right_content {
+    width: 70%;
+    height: 78px;
+    background-color: burlywood;
+    float: left;
+}
+
+.right_main_content {
+    width: 100%;
+    height: 216px;
+    background-color: chartreuse;
+}
+
+.bottom_content {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 38px;
+}
+
+.bottom_left_content_container {
+    width: 26%;
+    height: 520px;
+    background-color: aquamarine;
+    margin-bottom: 38px;
+}
+
+.footer_part {
+    width: 100%;
+    height: 500px;
+    background-color: #FFFFFF;
+}
+
+.footer_menu {
+    height: 422px;
+    width: 100%;
+    background-color: cornflowerblue;
+}
+
+footer {
+    height: 78px;
+    width: 100%;
+    margin: 0 auto;
+}
